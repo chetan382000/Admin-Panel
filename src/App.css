@@ -1,0 +1,51 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.AppHeader{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    color: var(--AppHeader);
+}
+.AppFooter{
+height: 50px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+}
+.SideMenuAndPageContent{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.05) ;
+    color: var(--btn-bg-color);
+}
+.SideMenu{
+    height: 100%;
+    color: var(--AppHeader);
+}
+.SideMenuVertical{
+    height: 100%;
+}
+.PageContent{
+    padding-left: 12px;
+}
+.dark-them{
+    --AppHeader:#5f99be;
+    --btn-bg-color:#5f99be;
+    --btn:#fff;
+}
+.light-them{
+    --AppHeader:#5f99be;
+    --btn-bg-color:#111b20;
+    --btn:#fff;
+}
